@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Network Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<div class="container">
+
+    <h1>AI Network Diagnostic Tool</h1>
+    <p>Paste network logs / ping / traceroute</p>
+
+    <form method="post">
+        <textarea name="data" placeholder="Enter logs..."></textarea>
+        <button type="submit">Analyze</button>
+    </form>
+
+    {% if result %}
+    <div class="result">
+        <h3>Analysis Result</h3>
+        <pre>{{ result }}</pre>
+    </div>
+    {% endif %}
+
+</div>
+</body>
+</html>
