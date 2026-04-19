@@ -31,7 +31,7 @@ traceroute timeout at hop 5
 - Suggestion: check routing / ISP
 
 ### Example
-- <img src="./image/result.png" alt="result" style="width: 300px; height: 200px;">
+- ![result](./image/result.png)
 
 ## How to Run
 pip install -r requirements.txt
