@@ -30,6 +30,9 @@ traceroute timeout at hop 5
 - Root cause: congestion
 - Suggestion: check routing / ISP
 
+### Example
+- <img src="./image/result" alt="Banner" width="500" style="display:block; margin:auto;">
+
 ## How to Run
 pip install -r requirements.txt
 python app.py
